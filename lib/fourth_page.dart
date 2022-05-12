@@ -11,74 +11,74 @@ class FourthPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            child: Text(
+            child: const Text(
               "Hobbies",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            margin: EdgeInsets.only(top: 20, left: 10),
+            margin: const EdgeInsets.only(top: 20, left: 10),
           ),
           Container(
-            child: Text(
+            child: const Text(
               "Art/ Handicraft, Cooking, Photography, Gardening/ Landscaping, Bird watching, Taking care of pets, Dancing, Acting ",
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
-            margin: EdgeInsets.only(left: 10),
+            margin: const EdgeInsets.only(left: 10),
           ),
           Container(
-            child: Text(
+            child: const Text(
               "Intrests",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            margin: EdgeInsets.only(top: 20, left: 10),
+            margin: const EdgeInsets.only(top: 20, left: 10),
           ),
           Container(
-            child: Text(
+            child: const Text(
               "Listening to music, Movies, Travel / Sightseeing, Trekking / Adventure sports, Net surfing",
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
-            margin: EdgeInsets.only(left: 10),
+            margin: const EdgeInsets.only(left: 10),
           ),
           Container(
-            child: Text(
+            child: const Text(
               "Dress Style",
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            margin: EdgeInsets.only(top: 20, left: 10),
+            margin: const EdgeInsets.only(top: 20, left: 10),
           ),
           Container(
-            child: Text(
+            child: const Text(
               "Trendy - in line with the latest fashion",
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
-            margin: EdgeInsets.only(left: 10),
+            margin: const EdgeInsets.only(left: 10),
           ),
           Container(
-            child: Text(
+            child: const Text(
               "Favorite Movies",
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            margin: EdgeInsets.only(top: 20, left: 10),
+            margin: const EdgeInsets.only(top: 20, left: 10),
           ),
           Container(
-            child: Text(
+            child: const Text(
               "Depends On Mood",
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
-            margin: EdgeInsets.only(left: 10),
+            margin: const EdgeInsets.only(left: 10),
           ),
           Container(
             child: Text(

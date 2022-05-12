@@ -7,7 +7,9 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('My First Page'),
+          title: Container(
+            child: const Text('My First Page'),
+          ),
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -18,7 +20,7 @@ class FirstPage extends StatelessWidget {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Text('Hello World'),
-                Text('Hi Ji'),
+                const Text('Hi Ji'),
                 Text("Anchal"),
                 Text('Hi'),
               ],
